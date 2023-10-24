@@ -9,7 +9,7 @@
   <br><br>
 </div>
 
-<img src="https://www.andrewnelson.net/img/preview.png">
+<img src="https://weresamson.com/images/header-background.jpg">
 
 ## Updates
 #### Dev Update — October 6th till Date, 2023 🥰
@@ -38,7 +38,6 @@ On a really interesting note, I have met many wonderful people in my cohort(Clas
 
 #### Projects Page
 - [ ] Pages\Projects\Project : Single project details page
-
 
 ## Please fork this repo! 🦄
 
