@@ -30,29 +30,29 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes Software engineering, systems architecture, photography, branding, and User-centered Design(Design Thinking) I am a well-rounded Resource and digital professional."
+					subTitle="With a diverse skill set that includes Software engineering, systems architecture, photography, branding, and User-centered Design(Design Thinking) I am a well-rounded Resource and a digital professional, did I mention that I am called as an entrepreneur? Yes that's it."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+						<img src="/img/samson-photo.jpg" alt="Handsome Psalmson"/>
+						{/* <Image src="/img/samson-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="The Potato Mash that's soft to the touch"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="In addition to my software engineering and bug battles, I have strong leadership, ideation and business research/validation skills—honed through my experience as a hyper entrepreneur / startup founder, freelancer, and fulltime Ugandan. Outside of work, I enjoy attending Phaneroo services, praying in tongues and listening to sermons. My active life is spent around books and poems, I read, write and journal my thoughts. I also run a twitter space(monthly) for poetry's sake. I am confident in my ability to play chess, scrabble, rugby and any game that involves brains and adrenaline."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="The Rocky past that made this star" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							copy="One of my favorite aspects of my identity is that I was born, raised and bred in Uganda; the pearl of Africa. To many people in the outside world, it's a third world country, but to me it is a training ground, I have lived in Kampala( our capital City ) for the past 4 years and I think If you can survive in Kampala, you can survive anywhere in the Universe(except the sun..) It has taught me to network, value relationships and cultivate intentional ones; to be diligent and snappy with work and always deliver results. It has also taught me to be frugal with what I have, to live life always on the edge and to ensure that I always give back when I get to a high place in life."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
