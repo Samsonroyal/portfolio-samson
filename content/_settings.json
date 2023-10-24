@@ -1,0 +1,15 @@
+{
+	"name": "Samson Were",
+	"logo": "",
+	
+	"username": {
+		"github": "@samsonroyal",
+		"medium": "@weresamson"
+	},
+
+	"portfolio": { 
+		"forkthis": "Feel at liberty to share this theme! Its open-source 🥰",
+		"repo_html": "https://www.github.com/atlamors/portfolio",
+		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+	}
+}

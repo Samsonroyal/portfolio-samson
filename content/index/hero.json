@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const Samson = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Samson Bruno Were.",
+		"usp": "I build software that solves business problems."
+	},
+
+	"paragraph": "I am a software engineer and entrepreneur — a curious learner, on a lifelong journey to amass experiences and leave a positive long-lasting impact on all I meet.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "mailto:werefast2000@gmail.com",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/were-samson/",
+			"leaveSite": "true"
+		}
+	}
+}
