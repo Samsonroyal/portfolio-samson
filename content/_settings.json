@@ -3,13 +3,13 @@
 	"logo": "",
 	
 	"username": {
-		"github": "@samsonroyal",
+		"github": "@Samsonroyal",
 		"medium": "@weresamson"
 	},
 
 	"portfolio": { 
 		"forkthis": "Feel at liberty to share this theme! Its open-source 🥰",
-		"repo_html": "https://www.github.com/atlamors/portfolio",
-		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+		"repo_html": "https://github.com/Samsonroyal/portfolio-samson",
+		"repo_api": "https://api.github.com/repos/Samsonroyal/portfolio-samson"
 	}
 }
