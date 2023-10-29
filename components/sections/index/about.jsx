@@ -46,7 +46,7 @@ export default function About() {
 							copy="In addition to my software engineering and bug battles, I have strong leadership, ideation and business research/validation skills—honed through my experience as a hyper entrepreneur / startup founder, freelancer, and fulltime Ugandan. Outside of work, I enjoy attending Phaneroo services, praying in tongues and listening to sermons. My active life is spent around books and poems, I read, write and journal my thoughts. I also run a twitter space(monthly) for poetry's sake. I am confident in my ability to play chess, scrabble, rugby and any game that involves brains and adrenaline."
 						/>
 						<BadgesBlock 
-							title="The Rocky past that made this star" 
+							title="The Rocky Combos that made this star" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
