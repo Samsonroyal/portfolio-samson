@@ -4,7 +4,7 @@
   <p></p>
   <img src="https://img.shields.io/badge/stability-alpha-blue.svg" alt="Experimental">
   <img src="https://vercelbadge.vercel.app/api/atlamors/portfolio-theme" alt="Vercel">
-  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-theme-jqe0jhmif-atlamors.vercel.app" alt="Vercel Deployed">
+  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-samson-gilt.vercel.app" alt="Vercel Deployed">
   <img src="https://img.shields.io/github/license/samsonroyal/portfolio-samson" alt="License">
   <br><br>
 </div>
