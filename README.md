@@ -4,7 +4,7 @@
   <p></p>
   <img src="https://img.shields.io/badge/stability-alpha-blue.svg" alt="Experimental">
   <img src="https://vercelbadge.vercel.app/api/atlamors/portfolio-theme" alt="Vercel">
-  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-samson-gilt.vercel.app" alt="Vercel Deployed">
+  <img src="https://therealsujitk-vercel-badge.vercel.app/?app=portfolio-samson-were.vercel.app" alt="Vercel Deployed">
   <img src="https://img.shields.io/github/license/samsonroyal/portfolio-samson" alt="License">
   <br><br>
 </div>
@@ -18,23 +18,24 @@ I relocated to a beautiful neighbourhood in the suburbs of Accra, Ghana. There h
 On a really interesting note, I have met many wonderful people in my cohort(Class of 2024) who have given me a rich view into what Africa has to offer as a continent in terms of skill and talent! 
 
 #### Next & App Architecure
-- [ ] Next.js v13 : Waiting for /app/ folder to leave beta
+- [x] Next.js v13 : Waiting for /app/ folder to leave beta
 - [ ] Sanity.io
 
 #### App Architecure & Design Systems
-- [ ] App\Systems\Margins : Continuing to develop Design Token System
-- [ ] App\Systems\Padding : Continuing to develop Design Token System
+- [ ] App\Systems\Margins : Develop Design Token System
+- [ ] App\Systems\Padding : Develop Design Token System
 
 #### Pages
 - [x] Pages\About
-- [ ] Pages\Case Studies
-- [x] Pages\Articles : API options and connections for Dev.to and HackerNoon not complete
+- [ ] Pages\Case Studies -- Coming Soon
+- [x] Pages\Articles : API options and connections for medium complete
 - [x] Pages\Projects : Single project details page
 
 #### Articles Page
 - [x] Pages\Articles\Medium\API
 - [ ] Pages\Articles\Dev.to\API
 - [ ] Pages\Articles\HackerNoon\API
+- [ ] Pages\Articles\Hashnode\API
 
 #### Projects Page
 - [ ] Pages\Projects\Project : Single project details page
