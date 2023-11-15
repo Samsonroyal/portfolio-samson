@@ -9,7 +9,6 @@ import Icon from "../../utils/icon.util";
 import css from "../../../styles/sections/articles/recent.module.scss";
 
 export default function Recent({ mediumArticles }) {
-  const feed = mediumArticles.feed;
   const articles = mediumArticles.items;
 
   return (
@@ -31,7 +30,11 @@ export default function Recent({ mediumArticles }) {
                 <>
                   <article key={index} className={css.project}>
                     <span className={css.featuredImage}>
-                      <Image src={thumbnail} alt="Article thumbnail" />
+                      <Image
+                        src={thumbnail}
+                        alt="Article thumbnail"
+                        layout="fill"
+                      />
                     </span>
                     <span className={css.header}>
                       <a href={link} rel="noreferrer" target="_blank">
@@ -63,3 +66,4 @@ export default function Recent({ mediumArticles }) {
     </Section>
   );
 }
+
