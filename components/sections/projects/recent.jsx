@@ -13,16 +13,19 @@ export default function GitProjects({ repos, user }) {
 		<Section classProp={css.section}>	
 			<Container classProp={css.container} spacing={'verticalXXXLrg'}>
 				<h3>Recent Projects</h3>
-				<section className={css.profile}>
-					<Image className={css.profilePhoto} src={`${user[0].avatar_url}`} alt="Github Profile Photo" height={60} width={60}/>
-					<span class={css.details}>
-						<p>{user[0].name}</p>
-						<a href={user[0].html_url} rel="noreferrer" target="_blank">{user[0].html_url} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>
-					</span>
-				</section>
+				{user && user[0] && (
+					<section className={css.profile}>
+						<Image className={css.profilePhoto} src={`${user[0].avatar_url}`} alt="Github Profile Photo" height={60} width={60}/>
+						<span class={css.details}>
+							<p>{user[0].name}</p>
+							<a href={user[0].html_url} rel="noreferrer" target="_blank">{user[0].html_url} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>
+						</span>
+					</section>
+				)}
+			
 				<div className={css.projects}>
 					{
-					repos.map( ({ name, description, topics, forks_count, html_url, language, watchers, homepage, pushed_at }, index) => {
+					Array.isArray(repos) && repos.map( ({ name, description, topics, forks_count, html_url, language, watchers, homepage, pushed_at }, index) => {
 						const date = new Date(pushed_at).toDateString()
 						return (
 							<>
@@ -59,5 +62,6 @@ export default function GitProjects({ repos, user }) {
 				*/}
 			</Container>
 		</Section>
+		
 	)
 }
