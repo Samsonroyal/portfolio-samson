@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Samson = ( name, purpose ) =>",
+		"start": "const Samson = ( myName, purpose ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
