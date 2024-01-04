@@ -1,32 +1,38 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Jihad Hassan - Marketing Director",
-			"link": "",
-			"note": "Thank you for all the advice and feedback."
+			"person": "Jonathan Bakebwa - Fisher of Men, Co-founder and Software Engineer",
+			"link": "https://www.jbakebwa.dev/",
+			"note": "Thank you for all the lessons and sermons preached without speaking."
 		},
 		{ 
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
-			"note": "Checkout their amazing vector illustrations."
+			"person": "Kehinde Adeleke - Frontend Engineer",
+			"link": "https://www.kehinde.xyz/",
+			"note": "For the overwhelming obsession with Accessibility in the web that inspires."
 		},
 		{ 
 			"person": "Brittany Chiang - Software Engineer",
 			"link": "https://brittanychiang.com/",
-			"note": "A major inspiration to create an open source theme."
+			"note": "A major inspiration for creating an open source theme for my portoflio."
 		},
 		{ 
 			"person": "Vercel - Platform",
 			"link": "https://vercel.com/docs",
-			"note": "Host your own Next.js project for free!"
+			"note": "For providing us with free options to host our projects!"
 		}
 	],
 
 	"links": [
 		{ 
-			"person": "YWFT Creative Marketplace",
-			"link": "https://www.youworkforthem.com/?aff=1115",
-			"note": "Best in class creative assets."
+			"person": "My portfolio; but made in framer",
+			"link": "https://www.were.framer.website",
+			"note": "I couldn't bring myself to choose so I added it here for those that may like it."
+		},
+		{
+			"person": "a11y-webring.club",
+			"link": "https://a11y-webring.club/",
+			"note": "This site is a member of the a11y-webring.club.",
+			"html": "<nav class=\"a11y-webring-club\" aria-labelledby=\"a11y-webring-club\"><h2 id=\"a11y-webring-club\">a11y-webring.club</h2><p>This site is a member of the <a rel=\"external\" href=\"https://a11y-webring.club/\">a11y-webring.club</a>.</p><ul><li><a rel=\"external\" referrerpolicy=\"strict-origin\" href=\"https://a11y-webring.club/prev\">Previous website</a></li><li><a rel=\"external\" referrerpolicy=\"strict-origin\" href=\"https://a11y-webring.club/random\">Random website</a></li><li><a rel=\"external\" referrerpolicy=\"strict-origin\" href=\"https://a11y-webring.club/next\">Next website</a></li></ul></nav>"
 		}
 	],
 
