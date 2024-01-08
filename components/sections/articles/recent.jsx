@@ -17,7 +17,7 @@ export default function Recent({ mediumArticles }) {
         <SectionTitle
           title="Recent Articles"
           preTitle="Informative"
-          subTitle="A quest to document and share my personal experiences as a startup founder using software"
+          subTitle="A journey to document and share my personal experiences as a startup founder and software engineer."
         />
         <section className={css.projects}>
           {articles.map(
