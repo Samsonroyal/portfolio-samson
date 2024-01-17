@@ -85,7 +85,7 @@ export default function GitProjects({ repos, user }) {
                         {topics.map((e, index) => {
                           return (
                             <span key={index} className={css.topics}>
-                              <i class="devicon-github-plain"></i> {e}
+                              <i className="devicon-github-plain"></i> {e}
                             </span>
                           );
                         })}
