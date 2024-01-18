@@ -30,10 +30,24 @@ class MiniGl {
 			antialias: true
 		}), _miniGl.meshes = [];
 		const context = _miniGl.gl;
-		width && height && this.setSize(width, height), _miniGl.lastDebugMsg, _miniGl.debug = debug && debug_output ? function(e) {
-			const t = new Date;
-			t - _miniGl.lastDebugMsg > 1e3 && console.log("---"), console.log(t.toLocaleTimeString() + Array(Math.max(0, 32 - e.length)).join(" ") + e + ": ", ...Array.from(arguments).slice(1)), _miniGl.lastDebugMsg = t
-		} : () => {}, Object.defineProperties(_miniGl, {
+		width && height && this.setSize(width, height);
+
+_miniGl.debug = debug && debug_output ? function(e) {
+  const t = new
+ 
+Date();
+  t - _miniGl.lastDebugMsg > 1e3 && console.log("---");
+  console.log(
+    t.toLocaleTimeString() +
+      Array(Math.max(0, 32 - e.length)).join(" ") +
+      e +
+      ": ",
+    ...Array.from(arguments).slice(1)
+  );
+  _miniGl.lastDebugMsg = t; // Track last debug message for timing
+} : () => {};
+
+Object.defineProperties(_miniGl, {
 			Material: {
 				enumerable: false,
 				value: class {
