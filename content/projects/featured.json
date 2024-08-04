@@ -1,16 +1,15 @@
 [
 	{
-		"project": "Taasa Analytics",
-		"url": "https://taasa.io",
+		"project": "Intelli",
+		"url": "https://intelliconcierge.com",
 		"repo": "Private",
-		"descriptionTitle": "B2C & B2B ecommerce site",
-		"description": "built for individulals to access safety merchandise easily.",
+		"descriptionTitle": "AI powered Customer Support for Travel & Hospitality",
+		"description": "Built using Performant Multimodal LLMs, to help businesses serve their customers better and efficiently.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "990", "w": "1400", "url": "/img/intelli-mockup.png" }		
+			
 		],
 		"stack": [
 			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
@@ -27,24 +26,24 @@
 		]
 	},
 	{
-		"project": "qatalystafrica.com",
-		"url": "https://github.com/atlamors/portfolio",
+		"project": "aclearpath.vercel.app",
+		"url": "https://github.com/Clearpath-HQ/Clearpath_frontend",
 		"repo": "Public",
-		"descriptionTitle": "A robust data silo for Africa",
-		"description": "built on Angular. A fast and agile web app that provides data on request for individual researchers and companies.",
+		"descriptionTitle": "A lightweight opensource PM tool",
+		"description": "Built on NextJS. A fast and agile web app that breathes life and fun into work.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "left", "h": "917", "w": "1222.67",  "url": "/img/clearpath-macbook.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
 			{ "key": "react", 		"name": "React", 		"type": "devicon" },
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
 			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
+			{ "key": "tailwind",    "name": "Tailwind", 	"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
 			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
