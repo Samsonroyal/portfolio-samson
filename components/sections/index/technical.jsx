@@ -43,7 +43,7 @@ export default function Technical() {
             />
             <BadgesBlock
               title="Software I love to work with"
-              copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+              copy="Over the past half a decade solving problems with software, I have come to develop a liking for certain pieces of software, I call gemstones. As to why I choose them; sometimes it's the UI, for some the User Experience, for others it's the functionality therein and the ease with which one works. Among these are some of the best software products in the world."
               list={software}
               block="software"
               fullContainer="fullContainer"
@@ -53,7 +53,7 @@ export default function Technical() {
             />
             <BadgesBlock
               title="Technologies I love to build with"
-              copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+              copy="I enjoy solving problems programmatically. Thinking about the approach, the tools to be used, the infrastructure, the architecture of the systems and everythign in-between. writing code as i often say is just the final stroke of the painter's brush. Full of flair but masks tonnes of effort and beauty that hae been laid as foundation."
               list={tech}
               block="tech"
               fullContainer="fullContainer"
@@ -84,9 +84,7 @@ const software = [
   { key: "vscode", name: "VSCode", type: "devicon" },
   { key: "mailbox", name: "Postman", type: "fas" },
   { key: "computer-mouse", name: "Click Up", type: "fas" },
-  { key: "list-music", name: "Ableton", type: "fas" },
-  { key: "aftereffects", name: "After Effects", type: "devicon" },
-  { key: "premierepro", name: "Premiere Pro", type: "devicon" },
+  { key: "spotify-music", name: "Spotify", type: "fas" }
 ];
 
 const tech = [
