@@ -19,9 +19,9 @@
 
 	"buttons": {
 		"primary": {
-			"title": "Contact Me",
-			"url": "mailto:werefast2000@gmail.com",
-			"leaveSite": false
+			"title": "Email => weresamson@proton.me",
+			"url": "mailto:weresamson@proton.me?subject=Hello%20there%20Samson",
+			"leaveSite": "true"
 		},
 		"secondary": {
 			"title": "LinkedIn",
