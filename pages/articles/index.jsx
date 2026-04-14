@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react"
-
 import Recent 		from '../../components/sections/articles/recent'
 
 import Color 	from '../../components/utils/page.colors.util'
@@ -34,6 +32,15 @@ export async function getServerSideProps({ res }) {
 	let [ mediumArticles ] = await Promise.all( [
 		mediumRSS.json(),
 	] )
+
+	// Extract thumbnail from content HTML if the feed doesn't provide one
+	mediumArticles.items = mediumArticles.items.map((item) => {
+		if (!item.thumbnail) {
+			const match = item.content && item.content.match(/<img[^>]+src=["']([^"']+)/);
+			if (match) item.thumbnail = match[1];
+		}
+		return item;
+	});
 
 	return { props: { mediumArticles } }
 }
