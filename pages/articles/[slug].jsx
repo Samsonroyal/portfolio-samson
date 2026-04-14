@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import DOMPurify from 'isomorphic-dompurify';
+import sanitizeHtml from 'sanitize-html';
 
 import ArticleContent from '../../components/sections/articles/content';
 import Color from '../../components/utils/page.colors.util';
@@ -56,7 +56,14 @@ export async function getServerSideProps({ params, res }) {
 	}
 
 	// Sanitize HTML content server-side
-	article.content = DOMPurify.sanitize(article.content);
+	article.content = sanitizeHtml(article.content, {
+		allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'figure', 'figcaption', 'iframe']),
+		allowedAttributes: {
+			...sanitizeHtml.defaults.allowedAttributes,
+			img: ['src', 'alt', 'title', 'width', 'height', 'loading'],
+			iframe: ['src', 'width', 'height', 'frameborder', 'allowfullscreen'],
+		},
+	});
 
 	return { props: { article } };
 }
