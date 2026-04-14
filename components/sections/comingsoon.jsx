@@ -14,7 +14,7 @@ export default function ComingSoon() {
 				<div className={css.content}>
 					<SectionTitle
 						preTitle="In Progress"
-						title="Case Studies Coming Soon"
+						title="Case Studies"
 						subTitle="Deep dives into real-world projects — the problems, the process, and the impact."
 					/>
 
@@ -40,19 +40,6 @@ export default function ComingSoon() {
 							<h3>Results &amp; Impact</h3>
 							<p>Measurable outcomes, lessons learned, and how each project moved the needle.</p>
 						</div>
-					</div>
-
-					<div className={css.cta}>
-						<Link href="/articles">
-							<a className={css.ctaFilled}>
-								Read Articles <Icon icon={['fad', 'arrow-right']} />
-							</a>
-						</Link>
-						<Link href="/projects">
-							<a className={css.ctaOutline}>
-								View Projects <Icon icon={['fad', 'arrow-right']} />
-							</a>
-						</Link>
 					</div>
 				</div>
 			</Container>
