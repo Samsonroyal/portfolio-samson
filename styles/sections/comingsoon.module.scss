@@ -1,0 +1,208 @@
+@import '../scss/mixins';
+
+.hasBg {
+	border-bottom: 1px solid var(--primary-dark);
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+	padding-top: var(--size-4x);
+	padding-bottom: var(--size-6x);
+	min-height: 60vh;
+}
+
+.previewCards {
+	display: flex;
+	flex-direction: row;
+	gap: 1.5rem;
+	width: 100%;
+}
+
+.card {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	border: 1px solid var(--primary-dark);
+	background-color: var(--background-dim2);
+
+	h3 {
+		font-size: var(--font-m);
+		color: var(--primary-bright);
+	}
+
+	p {
+		font-size: var(--font-s);
+		color: var(--primary-dim);
+		line-height: 1.6;
+	}
+}
+
+.cardIcon {
+	font-size: 1.5rem;
+	color: var(--secondary);
+	margin-bottom: 0.25rem;
+}
+
+.cta {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.ctaFilled {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 2rem;
+	border-radius: 99rem;
+	font-family: var(--font-accent);
+	font-size: var(--font-s);
+	font-weight: 600;
+	background: var(--secondary);
+	color: var(--background);
+	text-decoration: none;
+	@include transition;
+
+	&:hover {
+		opacity: 0.85;
+		color: var(--background);
+		@include transition;
+	}
+}
+
+.ctaOutline {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 2rem;
+	border-radius: 99rem;
+	font-family: var(--font-accent);
+	font-size: var(--font-s);
+	font-weight: 600;
+	border: 1px solid var(--primary-dark);
+	background: transparent;
+	color: var(--primary);
+	text-decoration: none;
+	@include transition;
+
+	&:hover {
+		border-color: var(--primary-dim);
+		color: var(--primary-bright);
+		@include transition;
+	}
+}
+
+// Orbital background animation (self-contained)
+.bgContainer {
+	--opacity: 10%;
+
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -2;
+	width: 100%;
+	height: 500px;
+
+	.afterGlowBg {
+		position: absolute;
+		z-index: -2;
+		top: -50%;
+		right: 0px;
+		height: 1000px;
+		width: 500px;
+		transform: translateX(50%);
+		filter: blur(200px);
+		opacity: var(--opacity);
+		background: linear-gradient(180deg, var(--neon-1-1) 0%, var(--neon-1-2) 100%);
+	}
+
+	.orbitalBg {
+		--left: linear-gradient(180deg, var(--neon-2-1) 0%, var(--neon-2-2) 100%);
+		--center: linear-gradient(180deg, var(--neon-1-1) 0%, var(--neon-1-2) 100%);
+		--right: linear-gradient(180deg, var(--neon-2-2) 0%, var(--neon-1-1) 100%);
+
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		left: -50%;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 2rem;
+
+		height: 500px;
+
+		filter: blur(200px);
+
+		animation: rotationFore 240s linear infinite;
+		transform-origin: center center;
+
+		.bgSection {
+			position: relative;
+			width: calc(100% / 3 - 2rem);
+			aspect-ratio: 1;
+			height: 100%;
+		}
+
+		.bgInner {
+			height: 100%;
+			width: 100%;
+			display: block;
+			border-radius: 99rem;
+		}
+
+		.heroOrbital {
+			height: 200%;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.heroLeft {
+			position: absolute;
+			left: -50%;
+			background: var(--left);
+			opacity: calc(var(--opacity) + 15%);
+		}
+		.heroCenter {
+			background: var(--center);
+			opacity: var(--opacity);
+		}
+		.heroRight {
+			position: absolute;
+			right: -50%;
+			background: var(--right);
+			opacity: calc(var(--opacity) + 15%);
+		}
+
+		@keyframes rotationFore {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+	}
+}
+
+@include media($max: $mobile) {
+	.previewCards {
+		flex-direction: column;
+	}
+
+	.bgContainer {
+		.orbitalBg {
+			width: unset;
+			height: 100%;
+		}
+	}
+}
